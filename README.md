@@ -22,6 +22,9 @@ This lab demonstrates how to set up and analyze network traffic between virtual 
 5. Verified that both VMs are in the same VNet/Subnet.
 
 ## Verification Screenshots
-![Users and Computers](https://github.com/deemthedream99/Active-Directory-VirtualBox-Lab/blob/main/Users%20and%20Computers.png?raw=true) 
-![Computer Description](https://github.com/deemthedream99/Active-Directory-VirtualBox-Lab/blob/main/Computer%20Description.png?raw=true)
-![Windows 10](https://github.com/deemthedream99/Active-Directory-VirtualBox-Lab/blob/main/Windows%2010.png?raw=true)
+![Step 1](https://github.com/user-attachments/assets/9ab2b742-2753-4ec0-b6c0-e45ae58a4680)
+![Step 2](https://github.com/user-attachments/assets/a8992442-6c10-4351-8936-64b2b0d50754)
+![Step 3](https://github.com/user-attachments/assets/22900e1c-a495-48dc-8498-aa6500e55d1a)
+![Step 4A](https://github.com/user-attachments/assets/84d764da-c370-45af-b7dc-892cbd888ab0)
+![Step 4B](https://github.com/user-attachments/assets/d041e3f0-aaee-4ad8-9b5d-effd3f1b0d13)
+
