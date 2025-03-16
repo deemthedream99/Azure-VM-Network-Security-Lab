@@ -1,19 +1,25 @@
 # Active Directory Homelab Setup 
 
 ## Overview
-This project documents the setup and configuration of a [Lab Name] environment using [Software/OS].
-
+This lab demonstrates how to set up and analyze network traffic between virtual machines (VMs) in Microsoft Azure. It covers creating Windows and Linux VMs, capturing and analyzing network traffic using Wireshark, and configuring Network Security Groups (NSGs) to control traffic flow.
 ## Components
-- [Primary System] (e.g., Windows Server, Linux, etc.)
-- [Client System] (e.g., Windows 10 VM, Linux VM, etc.)
-- [Hypervisor] (e.g., VirtualBox, VMware, Hyper-V)
+- Azure Resource Group – Manages all resources in the lab.
+- Windows 10 VM – Used for remote access, network monitoring, and testing.
+- Ubuntu (Linux) VM – Acts as a target system for networking experiments.
+- Azure Virtual Network (VNet) & Subnet – Ensures both VMs communicate on the same private network.
+- Wireshark – Used to capture and analyze ICMP, SSH, DHCP, DNS, and RDP traffic.
+- Network Security Group (NSG) – Controls inbound and outbound traffic to the Ubuntu VM.
 
 ## Steps Taken
-1. Installed [OS/Software] and configured [Feature].
-2. Created a [Domain/Network/Environment] (e.g., lab.local).
-3. Added a [Client System] and connected it to [Domain/Network].
-4. Configured [Users/Roles/Permissions/Services] as needed.
-5. Verified the setup using [Tools Used] (e.g., PowerShell, ADUC, CLI commands).
+1. Logged into [Azure Portal](https://portal.azure.com/#home).
+2. Created a Resource Group for managing lab resources.
+3. Created a Windows 10 Virtual Machine (VM):
+  - Assigned it to the previously created Resource Group.
+  - Allowed Azure to create a new Virtual Network (VNet) and Subnet.
+4. Created a Linux (Ubuntu) Virtual Machine:
+  - Assigned it to the same Resource Group and Virtual Network as the Windows VM.
+  - Chose Username/Password for authentication.
+5. Verified that both VMs are in the same VNet/Subnet.
 
 ## Verification Screenshots
 ![Users and Computers](https://github.com/deemthedream99/Active-Directory-VirtualBox-Lab/blob/main/Users%20and%20Computers.png?raw=true) 
