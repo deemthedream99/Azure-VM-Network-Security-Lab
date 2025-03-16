@@ -1,4 +1,4 @@
-# Azure VM Network Security Lab
+# Virtual Machine Network Security Lab
 
 ## Overview
 This lab demonstrates how to set up and analyze network traffic between virtual machines (VMs) in Microsoft Azure. It covers creating Windows and Linux VMs, capturing and analyzing network traffic using Wireshark, and configuring Network Security Groups (NSGs) to control traffic flow.
