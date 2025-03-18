@@ -29,6 +29,29 @@ This lab demonstrates how to set up and analyze network traffic between virtual 
 12. Observed ping requests and replies in Wireshark.
 13. Opened Command Prompt/PowerShell in the Windows 10 VM and pinged a public website (e.g., www.google.com).
 14. Observed the ICMP traffic in Wireshark.
+15. Started a new packet capture.
+16. Applied a filter to show only SSH traffic.
+17. Opened PowerShell in the Windows 10 VM and connected to the Ubuntu VM using: ssh labuser@<private IP address>
+- Entered username and password to authenticate.
+- Observed SSH traffic activity in Wireshark.
+- Exited the SSH session by typing exit and pressing Enter.
+18. Back in Wireshark, filtered for DHCP traffic only.
+19. Opened PowerShell as Administrator in the Windows 10 VM.
+20. Ran the following command to request a new IP address: ipconfig /renew
+21. Observed DHCP traffic activity in Wireshark.
+22. Back in Wireshark, filtered for DNS traffic only.
+23. Opened Command Prompt in the Windows 10 VM.
+24. Used nslookup to find the IP addresses of google.com and disney.com
+25. Observed DNS traffic activity in Wireshark.
+26. Back in Wireshark, filtered for RDP traffic only using: tcp.port == 3389
+27. Observed continuous RDP traffic in Wireshark.
+28. Closed the Remote Desktop Connection to the Windows 10 VM.
+29. Deleted the Resource Group(s) created at the beginning of the lab.
+
+
+
+
+
 
 ## Verification Screenshots
 ![Step 1](https://github.com/user-attachments/assets/9ab2b742-2753-4ec0-b6c0-e45ae58a4680)
@@ -41,4 +64,10 @@ This lab demonstrates how to set up and analyze network traffic between virtual 
 ![Pinging the private IP address of the Ubuntu VM](https://github.com/user-attachments/assets/3138437b-b638-4fa8-b4ba-a1962826200c)
 ![Wireshark after pinging the private IP address](https://github.com/user-attachments/assets/d686668a-b6be-48cf-9215-d0af6e205ad0)
 ![Pinging www google com](https://github.com/user-attachments/assets/db5e3161-c965-40be-a3c0-51064bab83ca)
+![Perpetual ping](https://github.com/user-attachments/assets/eeb34c4d-0c0e-42d2-9693-b7156ec169b8)
+![Inbound security rules](https://github.com/user-attachments/assets/885b62ea-fc3b-490b-8c82-5047cf2f2984)
+![SSH into Ubuntu](https://github.com/user-attachments/assets/0d472a58-b6a7-41ef-8348-3d4487fff38f)
+![ipconfig renew](https://github.com/user-attachments/assets/16185b57-259d-4872-8a15-314f98031183)
+![nslookup](https://github.com/user-attachments/assets/9308755d-096b-4ecb-8a72-2e927733a9d4)
+
 
