@@ -46,7 +46,6 @@ This lab demonstrates how to set up and analyze network traffic between virtual 
 26. Back in Wireshark, filtered for RDP traffic only using: tcp.port == 3389
 27. Observed continuous RDP traffic in Wireshark.
 28. Closed the Remote Desktop Connection to the Windows 10 VM.
-29. Deleted the Resource Group(s) created at the beginning of the lab.
 
 
 
